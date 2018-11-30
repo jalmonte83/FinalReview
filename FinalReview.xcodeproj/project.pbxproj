@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D264D8A21B097C5003556F4 /* PictureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D264D8921B097C5003556F4 /* PictureCell.swift */; };
+		0D264D8C21B09A59003556F4 /* AdCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D264D8B21B09A59003556F4 /* AdCell.swift */; };
 		8173771421B0619F00416943 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8173771321B0619F00416943 /* AppDelegate.swift */; };
 		8173771621B0619F00416943 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8173771521B0619F00416943 /* ViewController.swift */; };
 		8173771921B0619F00416943 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8173771721B0619F00416943 /* Main.storyboard */; };
@@ -28,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D264D8921B097C5003556F4 /* PictureCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureCell.swift; sourceTree = "<group>"; };
+		0D264D8B21B09A59003556F4 /* AdCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdCell.swift; sourceTree = "<group>"; };
 		8173771021B0619F00416943 /* FinalReview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalReview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8173771321B0619F00416943 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8173771521B0619F00416943 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,7 +87,9 @@
 			children = (
 				8173771321B0619F00416943 /* AppDelegate.swift */,
 				8173771521B0619F00416943 /* ViewController.swift */,
+				0D264D8B21B09A59003556F4 /* AdCell.swift */,
 				8173771721B0619F00416943 /* Main.storyboard */,
+				0D264D8921B097C5003556F4 /* PictureCell.swift */,
 				8173771A21B061A100416943 /* Assets.xcassets */,
 				8173771C21B061A100416943 /* LaunchScreen.storyboard */,
 				8173771F21B061A100416943 /* Info.plist */,
@@ -203,8 +209,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D264D8C21B09A59003556F4 /* AdCell.swift in Sources */,
 				8173771621B0619F00416943 /* ViewController.swift in Sources */,
 				8173771421B0619F00416943 /* AppDelegate.swift in Sources */,
+				0D264D8A21B097C5003556F4 /* PictureCell.swift in Sources */,
 				8173773421B061AB00416943 /* Ad.swift in Sources */,
 				8173773621B061B100416943 /* InstaPost.swift in Sources */,
 			);
@@ -369,7 +377,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3B9BY3LUJD;
+				DEVELOPMENT_TEAM = D9PD329X4J;
 				INFOPLIST_FILE = FinalReview/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -387,7 +395,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3B9BY3LUJD;
+				DEVELOPMENT_TEAM = D9PD329X4J;
 				INFOPLIST_FILE = FinalReview/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
